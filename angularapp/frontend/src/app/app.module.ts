@@ -12,6 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NieuwsOverzichtComponent } from './nieuws/nieuws-overzicht/nieuws-overzicht.component';
+import { NieuwsBerichtComponent } from './nieuws/nieuws-bericht/nieuws-bericht.component';
+import { AddNieuwsBerichtComponent } from './nieuws/add-nieuws-bericht/add-nieuws-bericht.component';
 
 const appRoutes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -30,7 +32,9 @@ const appRoutes: Routes = [
     HomeComponent,
     AboutComponent,
     PageNotFoundComponent,
-    NieuwsOverzichtComponent
+    NieuwsOverzichtComponent,
+    NieuwsBerichtComponent,
+    AddNieuwsBerichtComponent
   ],
   imports: [
     BrowserModule,

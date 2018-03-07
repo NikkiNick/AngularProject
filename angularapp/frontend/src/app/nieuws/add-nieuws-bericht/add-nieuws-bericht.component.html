@@ -1,0 +1,14 @@
+<div class="ui large form segment">
+  <h3 class="ui header">Voeg nieuwsbericht toe</h3>
+  <div class="field">
+    <label for="titel">Titel</label>
+    <input id="titel" name="titel" #titel>
+  </div>
+  <div class="field">
+    <label for="bericht">Bericht:</label>
+    <textarea id="bericht" name="bericht" #bericht></textarea>
+  </div>
+  <div>
+    <button class="ui positive button" (click)="addNieuwsBericht(titel.value, bericht.value)">Plaats nieuwsbericht</button>
+  </div>
+</div>

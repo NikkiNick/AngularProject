@@ -1,3 +1,6 @@
 <p>
   Welkom op het nieuws-overzicht.
 </p>
+
+<app-add-nieuws-bericht (nieuwNieuwsbericht)="nieuwNieuwsBerichtToevoegen($event)"></app-add-nieuws-bericht>
+<app-nieuws-bericht *ngFor="let bericht of nieuwsberichten" [nieuwsbericht]="bericht"></app-nieuws-bericht>
